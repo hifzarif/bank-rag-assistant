@@ -1,0 +1,19 @@
+
+# Virtual environments
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# API keys and environment variables
+.env
+.env.*
+
+# Private banking documents
+data/raw/*
+data/processed/*
+
+# IDE settings
+.vscode/
