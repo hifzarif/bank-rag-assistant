@@ -1,19 +1,9 @@
-
-# Virtual environments
 venv/
-.venv/
-
-# Python cache
 __pycache__/
 *.pyc
-
-# API keys and environment variables
 .env
-.env.*
+.DS_Store
 
-# Private banking documents
-data/raw/*
-data/processed/*
-
-# IDE settings
-.vscode/
+# Large or regenerable files
+data/raw/*.pdf
+data/processed/faiss.index
